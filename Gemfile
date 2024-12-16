@@ -37,7 +37,7 @@ gem "bootsnap", require: false
 group :development, :test do
   # Deploy web apps in containers to servers running Docker with zero downtime.
   # [https://github.com/basecamp/kamal]
-  gem "kamal", "~> 2.2", ">= 2.2.2"
+  gem "kamal", "~> 2.4"
 
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
