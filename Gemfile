@@ -44,7 +44,7 @@ group :development, :test do
 
   # Shim to load environment variables from .env into ENV in development
   # [https://github.com/bkeepers/dotenv]
-  gem "dotenv-rails", "~> 3.1", ">= 3.1.4"
+  gem "dotenv-rails", "~> 3.1"
 
   # Static analysis for security vulnerabilities [https://brakemanscanner.org/]
   gem "brakeman", require: false
